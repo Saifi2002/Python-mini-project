@@ -10,6 +10,7 @@ GuessMaster is a fun Python console game where players try to guess a randomly g
 - Randomized secret numbers every game
 - Time Tracking
 - High score tracking
+- Track high scores per level
 
 ## 🛠️ Technologies Used
 - Python
