@@ -7,7 +7,7 @@ def load_high_score(filename="High_Score.txt"):
         with open(filename, "r") as file:
             lines = file.readlines()
             if not lines:
-                return "", 999999  # no high score yet
+                return "", 999999
             best_score = 999999
             top_player = ""
             for line in lines:
@@ -78,13 +78,13 @@ def play_game():
                 print(f"⏱️ Time Taken: {total_time} seconds")
 
                 if attempts < high_score:
-                    print("🏆 NEW HIGH SCORE!")
+                    print("---- 🏆 NEW HIGH SCORE! ----")
                     save_high_score(player_name, attempts)
                     high_score = attempts
                     top_player = player_name
                 else:
-                    print("🏆 Current Champion")
-                    print("Name:", top_player)
+                    print("---- Current Champion ----")
+                    print("Name:", top_player, "🏆")
                     print("Best Score:", high_score)
                 break
 
