@@ -4,8 +4,8 @@ import time
 with open("High_Score.txt", "r") as file:
     high_score = int(file.read())
 
-with open("player_names.txt", "r") as file:
-    player_names = file.read().splitlines()
+with open("players_name.txt", "r") as file:
+    players_name = file.read().splitlines()
 
 play_game = input("Do you want to play game? (YES/No) : ").lower()
 player_name = input("Enter your name: ")
@@ -32,10 +32,10 @@ while play_game == "yes":
     
         guess = int(input("Guess the number: "))
         attempts = attempts + 1
-        with open("player_names.txt", "a") as file:
-            if player_name not in player_names:
+        with open("players_name.txt", "a") as file:
+            if player_name not in players_name:
                 file.write(player_name + "\n")
-                player_names.append(player_name)
+                players_name.append(player_name)
     
         if guess == secret_number :
             print("Congratulations " + player_name + "!! Your Guess is right 🎉 "+""+ "The Secret Key is",secret_number)
