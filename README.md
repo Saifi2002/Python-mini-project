@@ -8,6 +8,8 @@ GuessMaster is a fun Python console game where players try to guess a randomly g
 - Smart hints when the guess is very close
 - Replay option
 - Randomized secret numbers every game
+- Time Tracking
+- High score tracking
 
 ## 🛠️ Technologies Used
 - Python
@@ -16,11 +18,11 @@ GuessMaster is a fun Python console game where players try to guess a randomly g
 ## 🎮 How to Play
 1. Run the program
 2. Choose a difficulty level
-3. Guess the number
-4. Follow hints (high, low, very close)
-5. Win or try again!
+3. Enter your Name
+4. Guess the number
+5. Follow hints (high, low, very close)
+6. Win or try again!
 
 ## 📌 Future Improvements
-- High score tracking
 - Timed challenges
 - GUI version
