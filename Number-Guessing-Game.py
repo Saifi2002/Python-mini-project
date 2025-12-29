@@ -110,7 +110,6 @@ def play_game():
             print("Thanks for playing! Bye 👋")
             break
 
-
 # ----------- Run the Game -----------
 if __name__ == "__main__":
     play_game()
