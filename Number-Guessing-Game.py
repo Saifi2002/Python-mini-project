@@ -21,13 +21,11 @@ def load_high_scores():
 
     return scores
 
-
 def save_high_scores(scores):
     with open(HIGH_SCORE_FILE, "w") as file:
         for level, (name, score) in scores.items():
             if name:
                 file.write(f"{level} => {name} => {score}\n")
-
 
 # ----------- Game Logic -----------
 def play_game():
