@@ -14,7 +14,8 @@ GuessMaster is a fun Python console game where players try to guess a randomly g
 
 ## 🛠️ Technologies Used
 - Python
-- random module
+- Random module
+- Time module
 
 ## 🎮 How to Play
 1. Run the program
@@ -23,6 +24,7 @@ GuessMaster is a fun Python console game where players try to guess a randomly g
 4. Guess the number
 5. Follow hints (high, low, very close)
 6. Win or try again!
+7. Watch high score
 
 ## 📌 Future Improvements
 - Timed challenges
