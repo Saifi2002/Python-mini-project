@@ -1,2 +1,0 @@
-easy => SAIF HUSSAIN => 4
-medium => SAIF HUSSAIN => 7
